@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(#9a08dd 0%,#dd4c4f 40%,#7420d3 100%);
+
+}
+.box-pink img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+}
+.box-pink h1{
+    text-align: center;
+    color: #ffffff;
+}
+.box-pink h5{
+    text-align: center;
+    color: #ffffff;
+    transform: translateY(-10px);
+}
+.biodata {
+    background: linear-gradient(#ffffff 0%,#ffffff96 40%,#ffffff00 100%);
+    padding-bottom: 200px;
+    padding-top: 55px;
+}
+.row{
+    padding: 0px 20px;
+}
+.achievement{
+    padding-top: 55px;
+}
+.footer{
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+.contact a{
+    color: black;
+    font-size: 20px;
+}
+.jarak{
+    padding-top: 30px;
+}

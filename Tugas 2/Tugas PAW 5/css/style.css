@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(243, 151, 108, 0.767);
+    padding: 0;
+    margin: 0;
+}
+.atas {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 108, 35, 0.349);
+    padding: 20px;
+    color: rgb(10, 27, 43);
+}
+.atas p{
+    font-size: 60%;
+}
+nav{
+    text-align: center;
+    background-color: #e78b71;
+    padding: 5px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: padding 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #bf7d6fb3;
+    padding: 0.75em;
+    border-radius: 200px;
+}
+
+.box-pink{
+        background-color: rgba(255, 152, 152, 0.6);
+        margin: 20px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 50px;
+        border-style: ridge;
+        box-shadow: 6px 6px 2px 1px rgba(209, 125, 152, 0.591);
+}
+.box-pink img{
+    border-radius: 20px;
+}
+.box-pink img {
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.3s;
+}
+
+.box-pink img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.cuman{
+    background-color: rgba(201, 87, 87, 0.6);
+    margin: 20px;
+    padding: 20px;
+    font-size: 110%;
+    text-align: justify;
+    border-radius: 50px;
+    border-style: ridge;
+    box-shadow: 6px 6px 2px 1px rgba(117, 32, 59, 0.591);
+}
+.cuman h1,h2,h3{
+    background-color: #c98471;
+    padding: 0;
+    margin: 0;
+    color: white;
+}

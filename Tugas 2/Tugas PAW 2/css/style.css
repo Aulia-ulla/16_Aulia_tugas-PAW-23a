@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddbae7;
+}
+.dalam{
+    background: rgba(149, 99, 193, 0.626);
+    padding: 5px;
+    color: white;
+}
+.luar{
+    background: rgba(202, 157, 228, 0.566);
+    padding: 5px;
+    color: white;
+}
+.jumbotron {
+    font-size: 20px;
+    text-align: center;
+    background-color: #c47bcd;
+    padding: 10px;
+    color: #9123bd;
+    text-transform: capitalize;
+}
+.jumbotron h3{
+    background-color: #d5b4df;
+    color: rgb(4, 4, 5);
+   border-style: outset;
+   border-width: 5px;
+   border-color: brown, yellow,blue, gold,gray;
+   border-radius: 10px;
+   padding: 5px;
+}
+.jumbotron h5{
+    color: white;
+}
+.judul{
+    background-color: rgba(227, 125, 250, 0.6);
+    text-align: justify;
+    color: black;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+}
+.cara{
+    background-color: rgba(141, 40, 218, 0.61);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+}
+.sumber h2{
+    background-color:#D69ADE;
+    padding: 15px;
+    color: #8d20b8;
+    text-align: center;
+    
+}
+nav{
+    background-color: rgb(123, 49, 148);
+    padding: 10px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: padding 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: rgba(87, 28, 135, 0.543);
+    padding: 0.75em;
+    border-radius: 8px;
+}
+

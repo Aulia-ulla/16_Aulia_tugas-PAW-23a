@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/474x/45/d9/2e/45d92ee33e14e2d879cb498321fa6d9d.jpg'); /* Ganti dengan URL gambar dari Google */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+}
+
+.jumbotron {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(239, 163, 56, 0.6);
+    padding: 5px;
+    color: rgb(11, 61, 104);
+}
+.content{
+    background-color: rgba(185, 66, 66, 0.61);
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: groove;
+    box-shadow: 6px 6px 2px 1px rgba(255, 2, 82, 0.274);
+    color: rgb(0, 0, 0);
+}
+.nim {
+    color: #371d0d ;
+    background-color: #d3864797;
+    border-style: double;
+}
+.content h3{
+    color: #c4171797;
+}
+.signature{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    box-shadow: 6px 6px 2px 1px rgba(82, 11, 33, 0.274);
+    color: rgb(29, 98, 143);
+}
+.signature img{
+    border-radius: 5px;
+    width: 10%;
+    position: absolute;
+            right: 30px; 
+            bottom: -395px; 
+}
+.nim a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background: #f4955a;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.nim a:hover {
+    background: #b34500;
+}
+
